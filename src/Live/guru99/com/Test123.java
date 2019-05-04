@@ -20,6 +20,8 @@ public class Test123 {
 	public void beforeMethod() {
 		driver= new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		
 		driver.manage().window().maximize();
 
 	}
